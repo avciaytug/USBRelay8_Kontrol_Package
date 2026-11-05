@@ -1,0 +1,2 @@
+# USBRelay8 (dcttech / Van Ooijen) — parola gereksiz hidraw erisimi
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05df", MODE="0666"
